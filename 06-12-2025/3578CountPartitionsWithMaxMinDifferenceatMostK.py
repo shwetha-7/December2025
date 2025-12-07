@@ -1,3 +1,5 @@
+from sortedcontainers import SortedList
+
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:
         n = len(nums)
