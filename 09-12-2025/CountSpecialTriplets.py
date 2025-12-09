@@ -22,7 +22,6 @@ class Solution:
             freqPrev[nums[i]].append(i)
         return count 
     
-Solution().specialTriplets([6,3,6])
 
 class TestApp:
     def test_case_one(self):
@@ -35,4 +34,3 @@ class TestApp:
         assert Solution().specialTriplets([84,2,93,1,2,2,26])==2
     def test_case_five(self):
         assert Solution().specialTriplets([56,56,87,28,55,56,94])==2
-                
