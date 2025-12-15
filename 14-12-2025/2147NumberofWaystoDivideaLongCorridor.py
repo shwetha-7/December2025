@@ -19,7 +19,7 @@ class Solution:
                     result=helper(index+1,cnt)
             return result 
         return helper(0,0)%mod 
-# Using dynamic Programming 
+# Using dynamic Programming - Top Down 
 class Solution:
     def numberOfWays(self, corridor: str) -> int:
         n=len(corridor)
